@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">+
+
+  <title>Chitaranjan Nayak | Portfolio</title>
+  <link rel="stylesheet" href="index4.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<header>
+  <button id="themeToggle">Dark</button>
+</header>
+
+<section class="hero">
+  <img src="my passphoto.jpeg" alt="Profile Photo" width="100px" height="100px" class="circle-image">
+  <h2>Hello, I'm <span>Chitaranjan</span></h2>
+  <p>MCA Student | Aspiring Software Developer</p>
+  <button onclick="showMessage()">Hire Me</button>
+</section>
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#project">Project</a> 
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </nav>
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    Self-motivated and hardworking MCA student passionate about programming
+    and software development. Seeking an opportunity to work in a challenging
+    organization to utilize my skills and contribute to organizational growth.
+  </p>
+</section>
+
+<section id="skills">
+  <h2>Technical Skills</h2>
+  <ul>
+    <li>C</li>
+    <li>C++</li>
+    <li>Java</li>
+    <li>DSA</li>
+    <li>HTML & CSS</li>
+    <li>JavaScript</li>
+  </ul>
+</section>
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="project-card">
+  <h3>SmartCare – Healthcare Management System</h3>
+
+  <p>
+    SmartCare is a web-based healthcare management system designed to manage
+    patient records and appointments.
+  </p>
+
+  <button class="project-btn" data-target="smartcareDetails">
+    View Details
+  </button>
+
+  <div class="project-details" id="smartcareDetails">
+    <ul>
+      <li>Patient record management</li>
+      <li>Doctor & appointment scheduling</li>
+      <li>User-friendly dashboard</li>
+      <li>Built using HTML, CSS, JavaScript</li>
+    </ul>
+  </div>
+</div>
+
+<div id="smartcareDetails" style="display:none;">
+  <p>
+    SmartCare helps manage patient records, appointments,
+    and healthcare information using a simple web interface.
+  </p>
+</div>
+
+  <div class="project-card">
+    <h3>Personal Portfolio Website</h3>
+    <p>
+      A responsive personal portfolio website created to showcase my
+      skills, education, and projects with light and dark mode support.
+    </p>
+    <p><b>Technologies Used:</b> HTML, CSS, JavaScript</p>
+  </div>
+
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <div class="card">
+    <p><b>MCA</b> – NM Institute of Engineering & Technology, Bhubaneswar (Pursuing)</p>
+    <p><b>B.Sc</b> – Paramananda Degree College, Bologarh (2024) – 77.40%</p>
+    <p><b>Intermediate</b> – Itamati H.S. School (2021) – 76.33%</p>
+    <p><b>10th</b> – Nilakantheswar High School (2019) – 72%</p>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p><b>Email:</b> chitaranjannayak023@gmail.com</p>
+  <p><b>Phone:</b> 7008958264</p>
+  <p><b>Location:</b> Gunthuni, Odisha</p>
+</section>
+
+<footer>
+  <p>© 2026 Chitaranjan Nayak</p>
+</footer>
+
+<script src="index4.js"></script>
+</body>
+</html>
